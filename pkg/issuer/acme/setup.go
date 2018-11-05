@@ -27,12 +27,12 @@ import (
 	k8sErrors "k8s.io/apimachinery/pkg/api/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/jetstack/cert-manager/pkg/acme"
-	"github.com/jetstack/cert-manager/pkg/acme/client"
-	"github.com/jetstack/cert-manager/pkg/apis/certmanager/v1alpha1"
-	"github.com/jetstack/cert-manager/pkg/util/errors"
-	"github.com/jetstack/cert-manager/pkg/util/pki"
-	acmeapi "github.com/jetstack/cert-manager/third_party/crypto/acme"
+	"github.com/4ltieres/cert-manager/pkg/acme"
+	"github.com/4ltieres/cert-manager/pkg/acme/client"
+	"github.com/4ltieres/cert-manager/pkg/apis/certmanager/v1alpha1"
+	"github.com/4ltieres/cert-manager/pkg/util/errors"
+	"github.com/4ltieres/cert-manager/pkg/util/pki"
+	acmeapi "github.com/4ltieres/cert-manager/third_party/crypto/acme"
 )
 
 const (

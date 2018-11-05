@@ -20,9 +20,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/jetstack/cert-manager/pkg/acme/client"
-	"github.com/jetstack/cert-manager/pkg/apis/certmanager/v1alpha1"
-	"github.com/jetstack/cert-manager/pkg/controller/test"
+	"github.com/4ltieres/cert-manager/pkg/acme/client"
+	"github.com/4ltieres/cert-manager/pkg/apis/certmanager/v1alpha1"
+	"github.com/4ltieres/cert-manager/pkg/controller/test"
 )
 
 const (

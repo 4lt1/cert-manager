@@ -19,8 +19,8 @@ package validation
 import (
 	"k8s.io/apimachinery/pkg/util/validation/field"
 
-	"github.com/jetstack/cert-manager/pkg/apis/certmanager/v1alpha1"
-	"github.com/jetstack/cert-manager/pkg/controller"
+	"github.com/4ltieres/cert-manager/pkg/apis/certmanager/v1alpha1"
+	"github.com/4ltieres/cert-manager/pkg/controller"
 )
 
 func ValidateCertificateForIssuer(crt *v1alpha1.Certificate, issuerObj v1alpha1.GenericIssuer) field.ErrorList {

@@ -24,7 +24,7 @@ import (
 	"k8s.io/apimachinery/pkg/util/wait"
 	"k8s.io/client-go/tools/clientcmd"
 
-	"github.com/jetstack/cert-manager/test/e2e/framework"
+	"github.com/4ltieres/cert-manager/test/e2e/framework"
 )
 
 func init() {

@@ -29,8 +29,8 @@ import (
 	"k8s.io/ingress/core/pkg/ingress/annotations/class"
 
 	"github.com/golang/glog"
-	"github.com/jetstack/cert-manager/pkg/apis/certmanager/v1alpha1"
-	"github.com/jetstack/cert-manager/pkg/issuer/acme/http/solver"
+	"github.com/4ltieres/cert-manager/pkg/apis/certmanager/v1alpha1"
+	"github.com/4ltieres/cert-manager/pkg/issuer/acme/http/solver"
 )
 
 // getIngressesForChallenge returns a list of Ingresses that were created to solve

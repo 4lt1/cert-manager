@@ -20,7 +20,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/jetstack/cert-manager/pkg/apis/certmanager/v1alpha1"
+	"github.com/4ltieres/cert-manager/pkg/apis/certmanager/v1alpha1"
 	"k8s.io/apimachinery/pkg/util/validation/field"
 )
 

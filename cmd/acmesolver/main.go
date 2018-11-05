@@ -20,7 +20,7 @@ import (
 	"flag"
 	"log"
 
-	"github.com/jetstack/cert-manager/pkg/issuer/acme/http/solver"
+	"github.com/4ltieres/cert-manager/pkg/issuer/acme/http/solver"
 )
 
 // acmesolver solves ACME http-01 challenges. This is intended to run as a pod

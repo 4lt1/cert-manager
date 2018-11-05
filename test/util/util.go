@@ -23,7 +23,7 @@ import (
 	"time"
 
 	"github.com/golang/glog"
-	intscheme "github.com/jetstack/cert-manager/pkg/client/clientset/versioned/scheme"
+	intscheme "github.com/4ltieres/cert-manager/pkg/client/clientset/versioned/scheme"
 	"k8s.io/api/core/v1"
 	extv1beta1 "k8s.io/api/extensions/v1beta1"
 	apiextcs "k8s.io/apiextensions-apiserver/pkg/client/clientset/clientset/typed/apiextensions/v1beta1"
@@ -35,10 +35,10 @@ import (
 	"k8s.io/client-go/kubernetes"
 	corecs "k8s.io/client-go/kubernetes/typed/core/v1"
 
-	"github.com/jetstack/cert-manager/pkg/apis/certmanager/v1alpha1"
-	clientset "github.com/jetstack/cert-manager/pkg/client/clientset/versioned/typed/certmanager/v1alpha1"
-	"github.com/jetstack/cert-manager/pkg/util"
-	"github.com/jetstack/cert-manager/pkg/util/pki"
+	"github.com/4ltieres/cert-manager/pkg/apis/certmanager/v1alpha1"
+	clientset "github.com/4ltieres/cert-manager/pkg/client/clientset/versioned/typed/certmanager/v1alpha1"
+	"github.com/4ltieres/cert-manager/pkg/util"
+	"github.com/4ltieres/cert-manager/pkg/util/pki"
 )
 
 var ACMECertificateDomain string

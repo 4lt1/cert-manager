@@ -30,9 +30,9 @@ import (
 	coretesting "k8s.io/client-go/testing"
 	"k8s.io/client-go/tools/record"
 
-	cmfake "github.com/jetstack/cert-manager/pkg/client/clientset/versioned/fake"
-	informers "github.com/jetstack/cert-manager/pkg/client/informers/externalversions"
-	"github.com/jetstack/cert-manager/pkg/controller"
+	cmfake "github.com/4ltieres/cert-manager/pkg/client/clientset/versioned/fake"
+	informers "github.com/4ltieres/cert-manager/pkg/client/informers/externalversions"
+	"github.com/4ltieres/cert-manager/pkg/controller"
 )
 
 func init() {

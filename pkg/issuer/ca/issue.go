@@ -22,10 +22,10 @@ import (
 
 	k8sErrors "k8s.io/apimachinery/pkg/api/errors"
 
-	"github.com/jetstack/cert-manager/pkg/apis/certmanager/v1alpha1"
-	"github.com/jetstack/cert-manager/pkg/util/errors"
-	"github.com/jetstack/cert-manager/pkg/util/kube"
-	"github.com/jetstack/cert-manager/pkg/util/pki"
+	"github.com/4ltieres/cert-manager/pkg/apis/certmanager/v1alpha1"
+	"github.com/4ltieres/cert-manager/pkg/util/errors"
+	"github.com/4ltieres/cert-manager/pkg/util/kube"
+	"github.com/4ltieres/cert-manager/pkg/util/pki"
 )
 
 const (

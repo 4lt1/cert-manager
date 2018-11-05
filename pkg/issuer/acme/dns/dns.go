@@ -26,16 +26,16 @@ import (
 	"github.com/pkg/errors"
 	corev1listers "k8s.io/client-go/listers/core/v1"
 
-	"github.com/jetstack/cert-manager/pkg/apis/certmanager/v1alpha1"
-	"github.com/jetstack/cert-manager/pkg/controller"
-	"github.com/jetstack/cert-manager/pkg/issuer/acme/dns/acmedns"
-	"github.com/jetstack/cert-manager/pkg/issuer/acme/dns/akamai"
-	"github.com/jetstack/cert-manager/pkg/issuer/acme/dns/azuredns"
-	"github.com/jetstack/cert-manager/pkg/issuer/acme/dns/clouddns"
-	"github.com/jetstack/cert-manager/pkg/issuer/acme/dns/cloudflare"
-	"github.com/jetstack/cert-manager/pkg/issuer/acme/dns/rfc2136"
-	"github.com/jetstack/cert-manager/pkg/issuer/acme/dns/route53"
-	"github.com/jetstack/cert-manager/pkg/issuer/acme/dns/util"
+	"github.com/4ltieres/cert-manager/pkg/apis/certmanager/v1alpha1"
+	"github.com/4ltieres/cert-manager/pkg/controller"
+	"github.com/4ltieres/cert-manager/pkg/issuer/acme/dns/acmedns"
+	"github.com/4ltieres/cert-manager/pkg/issuer/acme/dns/akamai"
+	"github.com/4ltieres/cert-manager/pkg/issuer/acme/dns/azuredns"
+	"github.com/4ltieres/cert-manager/pkg/issuer/acme/dns/clouddns"
+	"github.com/4ltieres/cert-manager/pkg/issuer/acme/dns/cloudflare"
+	"github.com/4ltieres/cert-manager/pkg/issuer/acme/dns/rfc2136"
+	"github.com/4ltieres/cert-manager/pkg/issuer/acme/dns/route53"
+	"github.com/4ltieres/cert-manager/pkg/issuer/acme/dns/util"
 )
 
 const (

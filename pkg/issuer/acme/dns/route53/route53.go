@@ -25,8 +25,8 @@ import (
 	"github.com/aws/aws-sdk-go/service/route53"
 	"github.com/golang/glog"
 
-	"github.com/jetstack/cert-manager/pkg/issuer/acme/dns/util"
-	pkgutil "github.com/jetstack/cert-manager/pkg/util"
+	"github.com/4ltieres/cert-manager/pkg/issuer/acme/dns/util"
+	pkgutil "github.com/4ltieres/cert-manager/pkg/util"
 )
 
 const (

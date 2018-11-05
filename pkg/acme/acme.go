@@ -28,13 +28,13 @@ import (
 	corev1 "k8s.io/api/core/v1"
 	corelisters "k8s.io/client-go/listers/core/v1"
 
-	acme "github.com/jetstack/cert-manager/pkg/acme/client"
-	acmemw "github.com/jetstack/cert-manager/pkg/acme/client/middleware"
-	cmapi "github.com/jetstack/cert-manager/pkg/apis/certmanager/v1alpha1"
-	"github.com/jetstack/cert-manager/pkg/util"
-	cmerrors "github.com/jetstack/cert-manager/pkg/util/errors"
-	"github.com/jetstack/cert-manager/pkg/util/pki"
-	acmecl "github.com/jetstack/cert-manager/third_party/crypto/acme"
+	acme "github.com/4ltieres/cert-manager/pkg/acme/client"
+	acmemw "github.com/4ltieres/cert-manager/pkg/acme/client/middleware"
+	cmapi "github.com/4ltieres/cert-manager/pkg/apis/certmanager/v1alpha1"
+	"github.com/4ltieres/cert-manager/pkg/util"
+	cmerrors "github.com/4ltieres/cert-manager/pkg/util/errors"
+	"github.com/4ltieres/cert-manager/pkg/util/pki"
+	acmecl "github.com/4ltieres/cert-manager/third_party/crypto/acme"
 )
 
 // Helper is a structure that provides 'glue' between cert-managers API types and

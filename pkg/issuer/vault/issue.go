@@ -28,10 +28,10 @@ import (
 	"github.com/golang/glog"
 	vault "github.com/hashicorp/vault/api"
 	"github.com/hashicorp/vault/helper/certutil"
-	"github.com/jetstack/cert-manager/pkg/apis/certmanager/v1alpha1"
-	"github.com/jetstack/cert-manager/pkg/util/errors"
-	"github.com/jetstack/cert-manager/pkg/util/kube"
-	"github.com/jetstack/cert-manager/pkg/util/pki"
+	"github.com/4ltieres/cert-manager/pkg/apis/certmanager/v1alpha1"
+	"github.com/4ltieres/cert-manager/pkg/util/errors"
+	"github.com/4ltieres/cert-manager/pkg/util/kube"
+	"github.com/4ltieres/cert-manager/pkg/util/pki"
 	k8sErrors "k8s.io/apimachinery/pkg/api/errors"
 )
 

@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"time"
 
-	cmapi "github.com/jetstack/cert-manager/pkg/apis/certmanager/v1alpha1"
-	cmlisters "github.com/jetstack/cert-manager/pkg/client/listers/certmanager/v1alpha1"
+	cmapi "github.com/4ltieres/cert-manager/pkg/apis/certmanager/v1alpha1"
+	cmlisters "github.com/4ltieres/cert-manager/pkg/client/listers/certmanager/v1alpha1"
 )
 
 // Type Helper provides a set of commonly useful functions for use when building

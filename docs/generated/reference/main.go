@@ -27,7 +27,7 @@ import (
 	"github.com/go-openapi/spec"
 	"k8s.io/kube-openapi/pkg/common"
 
-	"github.com/jetstack/cert-manager/docs/generated/reference/openapi"
+	"github.com/4ltieres/cert-manager/docs/generated/reference/openapi"
 )
 
 func main() {

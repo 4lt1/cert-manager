@@ -25,9 +25,9 @@ import (
 	corev1 "k8s.io/api/core/v1"
 
 	"github.com/golang/glog"
-	"github.com/jetstack/cert-manager/pkg/acme/client"
-	"github.com/jetstack/cert-manager/pkg/apis/certmanager/v1alpha1"
-	acmeapi "github.com/jetstack/cert-manager/third_party/crypto/acme"
+	"github.com/4ltieres/cert-manager/pkg/acme/client"
+	"github.com/4ltieres/cert-manager/pkg/apis/certmanager/v1alpha1"
+	acmeapi "github.com/4ltieres/cert-manager/third_party/crypto/acme"
 	utilerrors "k8s.io/apimachinery/pkg/util/errors"
 )
 

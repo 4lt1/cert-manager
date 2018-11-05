@@ -33,14 +33,14 @@ import (
 	"k8s.io/client-go/tools/leaderelection/resourcelock"
 	"k8s.io/client-go/tools/record"
 
-	"github.com/jetstack/cert-manager/cmd/controller/app/options"
-	clientset "github.com/jetstack/cert-manager/pkg/client/clientset/versioned"
-	intscheme "github.com/jetstack/cert-manager/pkg/client/clientset/versioned/scheme"
-	informers "github.com/jetstack/cert-manager/pkg/client/informers/externalversions"
-	"github.com/jetstack/cert-manager/pkg/controller"
-	dnsutil "github.com/jetstack/cert-manager/pkg/issuer/acme/dns/util"
-	"github.com/jetstack/cert-manager/pkg/util"
-	"github.com/jetstack/cert-manager/pkg/util/kube"
+	"github.com/4ltieres/cert-manager/cmd/controller/app/options"
+	clientset "github.com/4ltieres/cert-manager/pkg/client/clientset/versioned"
+	intscheme "github.com/4ltieres/cert-manager/pkg/client/clientset/versioned/scheme"
+	informers "github.com/4ltieres/cert-manager/pkg/client/informers/externalversions"
+	"github.com/4ltieres/cert-manager/pkg/controller"
+	dnsutil "github.com/4ltieres/cert-manager/pkg/issuer/acme/dns/util"
+	"github.com/4ltieres/cert-manager/pkg/util"
+	"github.com/4ltieres/cert-manager/pkg/util/kube"
 	kubeinformers "k8s.io/client-go/informers"
 )
 

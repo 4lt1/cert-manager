@@ -19,8 +19,8 @@ package controller
 import (
 	"sync"
 
-	"github.com/jetstack/cert-manager/pkg/apis/certmanager/v1alpha1"
-	"github.com/jetstack/cert-manager/pkg/issuer"
+	"github.com/4ltieres/cert-manager/pkg/apis/certmanager/v1alpha1"
+	"github.com/4ltieres/cert-manager/pkg/issuer"
 )
 
 // This file defines types for controllers to register themselves with the

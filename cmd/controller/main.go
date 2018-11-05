@@ -24,7 +24,7 @@ import (
 
 	"github.com/golang/glog"
 
-	"github.com/jetstack/cert-manager/pkg/logs"
+	"github.com/4ltieres/cert-manager/pkg/logs"
 )
 
 func main() {

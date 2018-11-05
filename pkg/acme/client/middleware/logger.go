@@ -21,8 +21,8 @@ import (
 
 	"github.com/golang/glog"
 
-	"github.com/jetstack/cert-manager/pkg/acme/client"
-	"github.com/jetstack/cert-manager/third_party/crypto/acme"
+	"github.com/4ltieres/cert-manager/pkg/acme/client"
+	"github.com/4ltieres/cert-manager/third_party/crypto/acme"
 )
 
 func NewLogger(baseCl client.Interface) client.Interface {

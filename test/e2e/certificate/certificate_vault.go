@@ -24,10 +24,10 @@ import (
 	. "github.com/onsi/gomega"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/jetstack/cert-manager/pkg/apis/certmanager/v1alpha1"
-	"github.com/jetstack/cert-manager/test/e2e/framework"
-	"github.com/jetstack/cert-manager/test/util"
-	"github.com/jetstack/cert-manager/test/util/vault"
+	"github.com/4ltieres/cert-manager/pkg/apis/certmanager/v1alpha1"
+	"github.com/4ltieres/cert-manager/test/e2e/framework"
+	"github.com/4ltieres/cert-manager/test/util"
+	"github.com/4ltieres/cert-manager/test/util/vault"
 )
 
 var _ = framework.CertManagerDescribe("Vault Certificate (AppRole)", func() {

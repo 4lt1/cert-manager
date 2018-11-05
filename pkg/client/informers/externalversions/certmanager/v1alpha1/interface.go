@@ -17,7 +17,7 @@ limitations under the License.
 package v1alpha1
 
 import (
-	internalinterfaces "github.com/jetstack/cert-manager/pkg/client/informers/externalversions/internalinterfaces"
+	internalinterfaces "github.com/4ltieres/cert-manager/pkg/client/informers/externalversions/internalinterfaces"
 )
 
 // Interface provides access to all the informers in this group version.

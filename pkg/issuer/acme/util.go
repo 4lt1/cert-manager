@@ -17,10 +17,10 @@ limitations under the License.
 package acme
 
 import (
-	"github.com/jetstack/cert-manager/pkg/apis/certmanager/v1alpha1"
-	"github.com/jetstack/cert-manager/pkg/util"
-	"github.com/jetstack/cert-manager/pkg/util/pki"
-	"github.com/jetstack/cert-manager/third_party/crypto/acme"
+	"github.com/4ltieres/cert-manager/pkg/apis/certmanager/v1alpha1"
+	"github.com/4ltieres/cert-manager/pkg/util"
+	"github.com/4ltieres/cert-manager/pkg/util/pki"
+	"github.com/4ltieres/cert-manager/third_party/crypto/acme"
 )
 
 // This file includes some utility functions that can be used throughout the

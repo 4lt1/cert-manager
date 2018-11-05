@@ -24,7 +24,7 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	clientset "github.com/jetstack/cert-manager/pkg/client/clientset/versioned"
+	clientset "github.com/4ltieres/cert-manager/pkg/client/clientset/versioned"
 )
 
 // Framework supports common operations used by e2e tests; it will keep a client & a namespace for you.

@@ -26,8 +26,8 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/jetstack/cert-manager/pkg/apis/certmanager/v1alpha1"
-	"github.com/jetstack/cert-manager/pkg/util"
+	"github.com/4ltieres/cert-manager/pkg/apis/certmanager/v1alpha1"
+	"github.com/4ltieres/cert-manager/pkg/util"
 )
 
 func CommonNameForCertificate(crt *v1alpha1.Certificate) string {

@@ -31,10 +31,10 @@ import (
 	"k8s.io/client-go/tools/cache"
 	"k8s.io/client-go/util/workqueue"
 
-	cmlisters "github.com/jetstack/cert-manager/pkg/client/listers/certmanager/v1alpha1"
-	controllerpkg "github.com/jetstack/cert-manager/pkg/controller"
-	"github.com/jetstack/cert-manager/pkg/scheduler"
-	"github.com/jetstack/cert-manager/pkg/util"
+	cmlisters "github.com/4ltieres/cert-manager/pkg/client/listers/certmanager/v1alpha1"
+	controllerpkg "github.com/4ltieres/cert-manager/pkg/controller"
+	"github.com/4ltieres/cert-manager/pkg/scheduler"
+	"github.com/4ltieres/cert-manager/pkg/util"
 )
 
 type Controller struct {

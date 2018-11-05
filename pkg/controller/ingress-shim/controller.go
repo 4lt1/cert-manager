@@ -32,12 +32,12 @@ import (
 	"k8s.io/client-go/tools/record"
 	"k8s.io/client-go/util/workqueue"
 
-	cmv1alpha1 "github.com/jetstack/cert-manager/pkg/apis/certmanager/v1alpha1"
-	clientset "github.com/jetstack/cert-manager/pkg/client/clientset/versioned"
-	cminformers "github.com/jetstack/cert-manager/pkg/client/informers/externalversions/certmanager/v1alpha1"
-	cmlisters "github.com/jetstack/cert-manager/pkg/client/listers/certmanager/v1alpha1"
-	controllerpkg "github.com/jetstack/cert-manager/pkg/controller"
-	"github.com/jetstack/cert-manager/pkg/util"
+	cmv1alpha1 "github.com/4ltieres/cert-manager/pkg/apis/certmanager/v1alpha1"
+	clientset "github.com/4ltieres/cert-manager/pkg/client/clientset/versioned"
+	cminformers "github.com/4ltieres/cert-manager/pkg/client/informers/externalversions/certmanager/v1alpha1"
+	cmlisters "github.com/4ltieres/cert-manager/pkg/client/listers/certmanager/v1alpha1"
+	controllerpkg "github.com/4ltieres/cert-manager/pkg/controller"
+	"github.com/4ltieres/cert-manager/pkg/util"
 	extinformers "k8s.io/client-go/informers/extensions/v1beta1"
 )
 

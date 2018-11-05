@@ -19,10 +19,10 @@ package issuers
 import (
 	"testing"
 
-	"github.com/jetstack/cert-manager/test/util/generate"
+	"github.com/4ltieres/cert-manager/test/util/generate"
 
-	"github.com/jetstack/cert-manager/pkg/apis/certmanager/v1alpha1"
-	"github.com/jetstack/cert-manager/pkg/controller/test"
+	"github.com/4ltieres/cert-manager/pkg/apis/certmanager/v1alpha1"
+	"github.com/4ltieres/cert-manager/pkg/controller/test"
 )
 
 type controllerFixture struct {

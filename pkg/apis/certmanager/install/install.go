@@ -23,8 +23,8 @@ import (
 	"k8s.io/apimachinery/pkg/apimachinery/registered"
 	"k8s.io/apimachinery/pkg/runtime"
 
-	"github.com/jetstack/cert-manager/pkg/apis/certmanager"
-	"github.com/jetstack/cert-manager/pkg/apis/certmanager/v1alpha1"
+	"github.com/4ltieres/cert-manager/pkg/apis/certmanager"
+	"github.com/4ltieres/cert-manager/pkg/apis/certmanager/v1alpha1"
 )
 
 // Install registers the API group and adds types to a scheme

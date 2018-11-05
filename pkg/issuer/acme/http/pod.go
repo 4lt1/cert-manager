@@ -28,7 +28,7 @@ import (
 	"k8s.io/apimachinery/pkg/selection"
 	utilerrors "k8s.io/apimachinery/pkg/util/errors"
 
-	"github.com/jetstack/cert-manager/pkg/apis/certmanager/v1alpha1"
+	"github.com/4ltieres/cert-manager/pkg/apis/certmanager/v1alpha1"
 )
 
 func podLabels(ch v1alpha1.ACMEOrderChallenge) map[string]string {
@@ -38,7 +38,7 @@ func podLabels(ch v1alpha1.ACMEOrderChallenge) map[string]string {
 		// TODO: we need to support domains longer than 63 characters
 		// this value should probably be hashed, and then the full plain text
 		// value stored as an annotation to make it easier for users to read
-		// see #425 for details: https://github.com/jetstack/cert-manager/issues/425
+		// see #425 for details: https://github.com/4ltieres/cert-manager/issues/425
 		domainLabelKey: domainHash,
 		tokenLabelKey:  tokenHash,
 	}

@@ -12,11 +12,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-PACKAGE_NAME := github.com/jetstack/cert-manager
-REGISTRY := quay.io/jetstack
+PACKAGE_NAME := github.com/4ltieres/cert-manager
+REGISTRY := registry.svc.intranet/sandbox
 APP_NAME := cert-manager
-IMAGE_TAGS := canary
-GOPATH ?= $$HOME/go
+IMAGE_TAGS := v0.5.1
+GOPATH ?= $$HOME/git/go
 HACK_DIR ?= hack
 BUILD_TAG := build
 

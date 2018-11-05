@@ -28,12 +28,12 @@ import (
 	corev1 "k8s.io/api/core/v1"
 	k8sErrors "k8s.io/apimachinery/pkg/api/errors"
 
-	"github.com/jetstack/cert-manager/pkg/apis/certmanager/v1alpha1"
-	"github.com/jetstack/cert-manager/pkg/util"
-	"github.com/jetstack/cert-manager/pkg/util/errors"
-	"github.com/jetstack/cert-manager/pkg/util/kube"
-	"github.com/jetstack/cert-manager/pkg/util/pki"
-	acmeapi "github.com/jetstack/cert-manager/third_party/crypto/acme"
+	"github.com/4ltieres/cert-manager/pkg/apis/certmanager/v1alpha1"
+	"github.com/4ltieres/cert-manager/pkg/util"
+	"github.com/4ltieres/cert-manager/pkg/util/errors"
+	"github.com/4ltieres/cert-manager/pkg/util/kube"
+	"github.com/4ltieres/cert-manager/pkg/util/pki"
+	acmeapi "github.com/4ltieres/cert-manager/third_party/crypto/acme"
 )
 
 const (

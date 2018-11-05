@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/jetstack/cert-manager/pkg/apis/certmanager/v1alpha1"
+	"github.com/4ltieres/cert-manager/pkg/apis/certmanager/v1alpha1"
 )
 
 // countReachabilityTestCalls is a wrapper function that allows us to count the number

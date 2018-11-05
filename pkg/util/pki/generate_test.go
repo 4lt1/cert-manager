@@ -29,7 +29,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jetstack/cert-manager/pkg/apis/certmanager/v1alpha1"
+	"github.com/4ltieres/cert-manager/pkg/apis/certmanager/v1alpha1"
 )
 
 func buildCertificateWithKeyParams(keyAlgo v1alpha1.KeyAlgorithm, keySize int) *v1alpha1.Certificate {

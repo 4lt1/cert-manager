@@ -19,7 +19,7 @@ package ca
 import (
 	"context"
 
-	"github.com/jetstack/cert-manager/pkg/apis/certmanager/v1alpha1"
+	"github.com/4ltieres/cert-manager/pkg/apis/certmanager/v1alpha1"
 )
 
 // Prepare does nothing for the CA issuer. In future, this may validate

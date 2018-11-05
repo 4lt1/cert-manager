@@ -19,7 +19,7 @@ package acme
 import (
 	"context"
 
-	"github.com/jetstack/cert-manager/pkg/apis/certmanager/v1alpha1"
+	"github.com/4ltieres/cert-manager/pkg/apis/certmanager/v1alpha1"
 )
 
 func (a *Acme) Renew(ctx context.Context, crt *v1alpha1.Certificate) ([]byte, []byte, error) {

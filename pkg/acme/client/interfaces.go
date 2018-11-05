@@ -19,7 +19,7 @@ package client
 import (
 	"context"
 
-	"github.com/jetstack/cert-manager/third_party/crypto/acme"
+	"github.com/4ltieres/cert-manager/third_party/crypto/acme"
 )
 
 type Interface interface {

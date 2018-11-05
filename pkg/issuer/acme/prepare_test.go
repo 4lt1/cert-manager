@@ -22,8 +22,8 @@ import (
 
 	"k8s.io/apimachinery/pkg/util/diff"
 
-	"github.com/jetstack/cert-manager/pkg/apis/certmanager/v1alpha1"
-	"github.com/jetstack/cert-manager/third_party/crypto/acme"
+	"github.com/4ltieres/cert-manager/pkg/apis/certmanager/v1alpha1"
+	"github.com/4ltieres/cert-manager/third_party/crypto/acme"
 )
 
 const (

@@ -23,12 +23,12 @@ import (
 
 	"github.com/spf13/pflag"
 
-	"github.com/jetstack/cert-manager/pkg/util"
+	"github.com/4ltieres/cert-manager/pkg/util"
 
-	certificatescontroller "github.com/jetstack/cert-manager/pkg/controller/certificates"
-	clusterissuerscontroller "github.com/jetstack/cert-manager/pkg/controller/clusterissuers"
-	ingressshimcontroller "github.com/jetstack/cert-manager/pkg/controller/ingress-shim"
-	issuerscontroller "github.com/jetstack/cert-manager/pkg/controller/issuers"
+	certificatescontroller "github.com/4ltieres/cert-manager/pkg/controller/certificates"
+	clusterissuerscontroller "github.com/4ltieres/cert-manager/pkg/controller/clusterissuers"
+	ingressshimcontroller "github.com/4ltieres/cert-manager/pkg/controller/ingress-shim"
+	issuerscontroller "github.com/4ltieres/cert-manager/pkg/controller/issuers"
 )
 
 type ControllerOptions struct {
@@ -80,7 +80,7 @@ const (
 )
 
 var (
-	defaultACMEHTTP01SolverImage = fmt.Sprintf("quay.io/jetstack/cert-manager-acmesolver:%s", util.AppVersion)
+	defaultACMEHTTP01SolverImage = fmt.Sprintf("quay.io/4ltieres/cert-manager-acmesolver:%s", util.AppVersion)
 
 	defaultEnabledControllers = []string{
 		issuerscontroller.ControllerName,

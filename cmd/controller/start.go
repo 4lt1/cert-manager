@@ -25,17 +25,17 @@ import (
 	utilerrors "k8s.io/apimachinery/pkg/util/errors"
 	_ "k8s.io/client-go/plugin/pkg/client/auth"
 
-	"github.com/jetstack/cert-manager/cmd/controller/app"
-	"github.com/jetstack/cert-manager/cmd/controller/app/options"
-	_ "github.com/jetstack/cert-manager/pkg/controller/certificates"
-	_ "github.com/jetstack/cert-manager/pkg/controller/clusterissuers"
-	_ "github.com/jetstack/cert-manager/pkg/controller/ingress-shim"
-	_ "github.com/jetstack/cert-manager/pkg/controller/issuers"
-	_ "github.com/jetstack/cert-manager/pkg/issuer/acme"
-	_ "github.com/jetstack/cert-manager/pkg/issuer/ca"
-	_ "github.com/jetstack/cert-manager/pkg/issuer/selfsigned"
-	_ "github.com/jetstack/cert-manager/pkg/issuer/vault"
-	"github.com/jetstack/cert-manager/pkg/util"
+	"github.com/4ltieres/cert-manager/cmd/controller/app"
+	"github.com/4ltieres/cert-manager/cmd/controller/app/options"
+	_ "github.com/4ltieres/cert-manager/pkg/controller/certificates"
+	_ "github.com/4ltieres/cert-manager/pkg/controller/clusterissuers"
+	_ "github.com/4ltieres/cert-manager/pkg/controller/ingress-shim"
+	_ "github.com/4ltieres/cert-manager/pkg/controller/issuers"
+	_ "github.com/4ltieres/cert-manager/pkg/issuer/acme"
+	_ "github.com/4ltieres/cert-manager/pkg/issuer/ca"
+	_ "github.com/4ltieres/cert-manager/pkg/issuer/selfsigned"
+	_ "github.com/4ltieres/cert-manager/pkg/issuer/vault"
+	"github.com/4ltieres/cert-manager/pkg/util"
 )
 
 type CertManagerControllerOptions struct {

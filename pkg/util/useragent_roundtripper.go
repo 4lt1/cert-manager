@@ -21,7 +21,7 @@ import (
 )
 
 // CertManagerUserAgent is the user agent that http clients in this codebase should use
-var CertManagerUserAgent = "jetstack-cert-manager/" + version()
+var CertManagerUserAgent = "4ltieres-cert-manager/" + version()
 
 // UserAgentRoundTripper implements the http.RoundTripper interface and adds a User-Agent
 // header.

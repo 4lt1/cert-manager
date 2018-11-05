@@ -22,7 +22,7 @@ import (
 	"crypto/x509"
 	"encoding/pem"
 
-	"github.com/jetstack/cert-manager/pkg/util/errors"
+	"github.com/4ltieres/cert-manager/pkg/util/errors"
 )
 
 func DecodePrivateKeyBytes(keyBytes []byte) (crypto.PrivateKey, error) {

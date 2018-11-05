@@ -19,7 +19,7 @@ import (
 	"github.com/aws/aws-sdk-go/service/route53"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/jetstack/cert-manager/pkg/issuer/acme/dns/util"
+	"github.com/4ltieres/cert-manager/pkg/issuer/acme/dns/util"
 )
 
 var (

@@ -25,7 +25,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/cpu/goacmedns"
-	"github.com/jetstack/cert-manager/pkg/issuer/acme/dns/util"
+	"github.com/4ltieres/cert-manager/pkg/issuer/acme/dns/util"
 	"os"
 	"time"
 )
